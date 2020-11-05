@@ -6,6 +6,7 @@ public class Palindrome {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int number = input.nextInt();
+        assert number > 0 : "Invalid number";
         int copy = number;
         int revnumber = 0;
 
